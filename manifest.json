@@ -1,0 +1,17 @@
+{
+  "name": "Travis Build Monitor",
+  "version": "0.1.0",
+  "description": "Displays the status of the build in the toolbar. Click to see more detailed status in a popup.",
+  "icons": { "128": "icon.png" },
+  "background_page": "background.html",
+  "permissions": [
+    "notifications",
+    "http://travis-ci.org/"
+  ],
+  "browser_action": {
+    "default_title": "",
+    "default_icon": "travis.png",
+    "popup": "popup.html"
+  },
+  "options_page": "options.html"
+}
